@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>مسمومیت با ارگانوفسفرها</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light;--bg:#f6f9fc;--card:#fff;--ink:#16324f;--mut:#5b7189;--pri:#1e88e5;--acc:#e8590c;--ok:#2f9e44;--line:#dbe5ef;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--ink);font-family:Vazirmatn,Tahoma,sans-serif;overflow:hidden}
+#app{height:100%;display:flex;flex-direction:column}
+#bar{height:5px;background:var(--line)}
+#bar i{display:block;height:100%;width:0;background:var(--pri);transition:width .3s}
+#stage{flex:1;position:relative;min-height:0}
+.s{position:absolute;inset:0;padding:4vh 6vw;display:none;flex-direction:column;gap:2vh;overflow-y:auto}
+.s.on{display:flex;animation:f .35s}
+@keyframes f{from{opacity:0;transform:translateX(-18px)}to{opacity:1;transform:none}}
+h1{font-size:clamp(28px,5vw,56px);margin:0;font-weight:800;color:var(--pri)}
+h2{font-size:clamp(22px,3.4vw,38px);margin:0;font-weight:800;border-inline-start:6px solid var(--acc);padding-inline-start:12px}
+.sub{color:var(--mut);font-size:clamp(15px,2vw,22px);margin:0}
+.row{display:flex;gap:3vw;align-items:center;flex:1;flex-wrap:wrap;justify-content:center}
+.row>svg{flex:1 1 280px;max-width:480px;max-height:46vh}
+.txt{flex:1 1 300px}
+ul{margin:0;padding-inline-start:22px;font-size:clamp(14px,1.75vw,20px);line-height:1.85}
+li::marker{color:var(--acc)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2vw;flex:1;align-content:center}
+.c{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:0 4px 14px #1e88e514}
+.c b{display:block;font-size:clamp(17px,2.2vw,24px);margin-bottom:6px;color:var(--pri)}
+.c span{font-size:clamp(14px,1.7vw,19px);line-height:1.9;color:var(--ink)}
+.c .e{font-size:44px;display:block;margin-bottom:4px}
+.tag{display:inline-block;background:#fff4e6;color:var(--acc);border-radius:20px;padding:2px 12px;font-size:14px;margin:2px}
+.warn{background:#fff4e6;border:1px solid #ffd8a8;border-radius:12px;padding:10px 16px;font-size:clamp(14px,1.8vw,19px)}
+#nav{display:flex;align-items:center;justify-content:space-between;padding:10px 6vw;background:var(--card);border-top:1px solid var(--line)}
+button{font:inherit;background:var(--pri);color:#fff;border:0;border-radius:10px;padding:8px 22px;cursor:pointer}
+button:disabled{background:var(--line);color:var(--mut);cursor:default}
+#n{color:var(--mut)}
+</style>
+</head>
+<body>
+<div id="app">
+<div id="bar"><i></i></div>
+<div id="stage">
+
+<section class="s">
+<div class="row">
+<svg viewBox="0 0 400 320"><circle cx="200" cy="160" r="140" fill="#e3f2fd"/><circle cx="200" cy="160" r="104" fill="#fff" stroke="#1e88e5" stroke-width="4"/><g stroke="#16324f" stroke-width="5" stroke-linecap="round"><path d="M200 160V90M200 160L140 200M200 160L262 198M262 198L318 170"/></g><circle cx="200" cy="160" r="34" fill="#e8590c"/><text x="200" y="172" font-size="34" font-weight="800" fill="#fff" text-anchor="middle">P</text><circle cx="200" cy="82" r="22" fill="#2f9e44"/><text x="200" y="91" font-size="24" fill="#fff" text-anchor="middle" font-weight="700">O</text><circle cx="134" cy="206" r="22" fill="#1e88e5"/><text x="134" y="215" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">OR</text><circle cx="266" cy="202" r="22" fill="#1e88e5"/><text x="266" y="211" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">OR</text><circle cx="326" cy="168" r="20" fill="#845ef7"/><text x="326" y="176" font-size="18" fill="#fff" text-anchor="middle" font-weight="700">X</text></svg>
+<div class="txt"><h1>مسمومیت با ارگانوفسفرها</h1><p class="sub">مکانیسم، تظاهرات بالینی و درمان</p><p><span class="tag">مهار استیل‌کولین‌استراز</span><span class="tag">آتروپین</span><span class="tag">پرالیدوکسیم</span></p></div>
+</div>
+</section>
+
+<section class="s">
+<h2>مکانیسم اثر</h2>
+<div class="row">
+<svg viewBox="0 0 440 300"><rect x="20" y="20" width="400" height="70" rx="30" fill="#e3f2fd" stroke="#1e88e5" stroke-width="3"/><text x="220" y="62" font-size="20" text-anchor="middle" fill="#16324f">پایانه پیش‌سیناپسی</text><g fill="#e8590c"><circle cx="150" cy="120" r="9"/><circle cx="200" cy="135" r="9"/><circle cx="250" cy="118" r="9"/><circle cx="300" cy="138" r="9"/><circle cx="220" cy="160" r="9"/><circle cx="270" cy="165" r="9"/></g><text x="380" y="140" font-size="16" fill="#e8590c" text-anchor="middle">ACh</text><path d="M60 175h110l20 30-20 30H60z" fill="#fff3bf" stroke="#f08c00" stroke-width="3"/><text x="115" y="212" font-size="16" text-anchor="middle" fill="#16324f">AChE</text><path d="M80 185l70 40M150 185l-70 40" stroke="#e03131" stroke-width="8" stroke-linecap="round"/><rect x="20" y="250" width="400" height="40" rx="14" fill="#e6fcf5" stroke="#2f9e44" stroke-width="3"/><text x="220" y="277" font-size="18" text-anchor="middle" fill="#16324f">گیرنده موسکارینی / نیکوتینی</text></svg>
+<div class="txt"><ul><li>فسفریلاسیون آنزیم استیل‌کولین‌استراز</li><li>تجمع استیل‌کولین در سیناپس‌ها</li><li>تحریک بیش‌ازحد گیرنده‌های موسکارینی، نیکوتینی و CNS</li><li>پیر شدن آنزیم (aging) اتصال را برگشت‌ناپذیر می‌کند</li><li>شدت و سرعت بروز به نوع سم، دوز و راه مواجهه بستگی دارد</li><li>راه‌های جذب: پوست، تنفس و گوارش؛ سموم چربی‌دوست مثل فنتیون آهسته آزاد می‌شوند و اثر طولانی‌تری دارند</li><li>ترکیبات تیونی (پاراتیون، مالاتیون) باید به فرم اکسون فعال شوند، پس شروع علائم دیرتر است</li><li>نمونه‌ها: دیازینون، کلرپیریفوس، دیکلرووس، مالاتیون، پاراتیون و عوامل اعصاب جنگی مانند سارین</li><li>کولین‌استراز گلبول قرمز (RBC) و سودوکولین‌استراز پلاسما کاهش می‌یابند</li></ul></div>
+</div>
+</section>
+
+<section class="s">
+<h2>تظاهرات بالینی</h2>
+<div class="grid">
+<div class="c"><span class="e">👁️</span><b>موسکارینی</b><span>اسهال، تکرر ادرار، میوز، برادی‌کاردی، استفراغ، اشک‌ریزش، ترشح بزاق و برونکوره (DUMBELS). علت اصلی مرگ: برونکوره، برونکواسپاسم و نارسایی تنفسی</span></div>
+<div class="c"><span class="e">💪</span><b>نیکوتینی</b><span>کرامپ، فاسیکولاسیون، ضعف و فلج عضلات تنفسی؛ تحریک گانگلیون‌ها با تاکی‌کاردی، فشار خون بالا و رنگ‌پریدگی؛ میدریاز ممکن است دیده شود</span></div>
+<div class="c"><span class="e">🧠</span><b>سیستم عصبی مرکزی</b><span>سردرد، اضطراب، گیجی، آتاکسی، تشنج، کما و دپرسیون مرکز تنفس</span></div>
+<div class="c"><span class="e">❤️</span><b>قلب</b><span>طولانی شدن QTc، بلوک AV، تغییرات ST-T، PVC، تورساد دو پوآنت؛ برادی‌کاردی یا تاکی‌کاردی</span></div><div class="c"><span class="e">🧬</span><b>متابولیک و سایر</b><span>هیپرگلیسمی و DKA، پانکراتیت، افزایش CPK، هیپوکالمی، ARDS، هیپوترمی</span></div><div class="c"><span class="e">👃</span><b>سرنخ‌های تشخیصی</b><span>بوی سیر یا نفت، تعریق شدید، فاسیکولاسیون، مردمک نقطه‌ای</span></div>
+</div>
+</section>
+
+<section class="s">
+<h2>شدت مسمومیت</h2>
+<p class="sub">تقسیم‌بندی بر اساس شدت تظاهرات بالینی</p>
+<svg viewBox="0 0 600 90" style="width:100%;max-height:12vh"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#2f9e44"/><stop offset=".5" stop-color="#f08c00"/><stop offset="1" stop-color="#e03131"/></linearGradient></defs><rect x="10" y="30" width="580" height="22" rx="11" fill="url(#g)"/><g font-size="18" text-anchor="middle" fill="#16324f"><text x="100" y="80">خفیف</text><text x="300" y="80">متوسط</text><text x="500" y="80">شدید</text></g><g fill="#fff" stroke="#16324f" stroke-width="3"><circle cx="100" cy="41" r="9"/><circle cx="300" cy="41" r="9"/><circle cx="500" cy="41" r="9"/></g></svg>
+<div class="grid">
+<div class="c" style="border-top:6px solid #2f9e44"><span class="e">🚶</span><b style="color:#2f9e44">خفیف</b><span>ضعف، سردرد، گیجی، numbness اندام، تهوع، استفراغ، درد شکمی، تعریق، بزاق فراوان، ویزینگ و اسهال. <strong>بیمار قادر به راه رفتن است.</strong></span></div>
+<div class="c" style="border-top:6px solid #f08c00"><span class="e">🧍</span><b style="color:#f08c00">متوسط</b><span>ضعف عمومی، دیس‌آرتری، فسیکولیشن و میوز همراه با علائم مسمومیت خفیف. <strong>بیمار قادر به راه رفتن نیست.</strong></span></div>
+<div class="c" style="border-top:6px solid #e03131"><span class="e">🛌</span><b style="color:#e03131">شدید</b><span>میوز بدون پاسخ به نور، فسیکولیشن، فلج عضلانی، رالز (ادم ریوی)، دیسترس تنفسی، برادی‌کاردی، سیانوز، تعریق، استفراغ، اسهال، بزاق فراوان، دفع ادرار و تشنج. <strong>بیمار کوماتوس است.</strong></span></div>
+</div>
+<div class="warn">در مسمومیت متوسط تا معمولا سطح سرمی سودوکولین‌استراز به کمتر از ۲۵٪ مقدار طبیعی و در موارد خیلی شدید حتی به کمتر از ۱۰٪ می‌رسد. منبع: فصل «مسمومیت با سموم و سایر مواد شیمیایی توکسیک»، کتاب تشخیص و درمان مسمومیت‌های حاد.</div>
+</section>
+
+<section class="s">
+<h2>تشخیص آزمایشگاهی</h2>
+<div class="row">
+<svg viewBox="0 0 420 280"><g stroke="#868e96" stroke-width="3"><path d="M60 20v220h340"/></g><rect x="90" y="40" width="60" height="200" rx="8" fill="#2f9e44"/><rect x="180" y="190" width="60" height="50" rx="8" fill="#f08c00"/><rect x="270" y="225" width="60" height="15" rx="6" fill="#e03131"/><g font-size="16" text-anchor="middle" fill="#16324f"><text x="120" y="264">نرمال</text><text x="210" y="264">متوسط</text><text x="300" y="264">خیلی شدید</text><text x="120" y="32">بالای ۱۹۰۰ IU/L</text><text x="210" y="182">کمتر از ۲۵٪</text><text x="300" y="217">کمتر از ۱۰٪</text></g></svg>
+<div class="txt"><ul><li>تأیید مسمومیت با تست‌های آزمایشگاهی برای شروع درمان لازم نیست</li><li>چک کردن سودوکولین‌استراز سرمی در موارد مشکوک و برای ادامه درمان ارزشمند است</li><li>دو نوع استیل‌کولین استراز وجود دارد</li></ul></div>
+</div>
+<div class="grid">
+<div class="c"><span class="e">🩸</span><b>RBC acetylcholine esterase</b><span>روی غشاء گلبول قرمز قرار دارد؛ سنجش آن تنها در آزمایشگاه‌های تحقیقاتی انجام می‌شود</span></div>
+<div class="c"><span class="e">🧪</span><b>Pseudocholinesterase</b><span>در سرم است و آزمایشگاه‌ها معمولا این نوع را می‌سنجند</span></div>
+<div class="c"><span class="e">📉</span><b>اندازه کاهش</b><span>در متوسط تا معمولا شدید کمتر از ۲۵٪ مقدار طبیعی و در موارد خیلی شدید حتی کمتر از ۱۰٪؛ سطح بالاتر از ۱۹۰۰ IU/L نرمال است</span></div>
+</div>
+<div class="warn">امکان سنجش سرمی سودوکولین‌استراز در اکثر مناطق کشور ما وجود ندارد؛ تشخیص با شک بالینی، تظاهرات مشخص و بوی ارگانوفسفره انجام می‌شود. منبع: کتاب، صفحه ۳۰۴.</div>
+</section>
+
+<section class="s">
+<h2>درمان</h2>
+<div class="grid">
+<div class="c"><span class="e">🫁</span><b>احیا و حمایت</b><span>برقراری راه هوایی مناسب، تهویه کافی، اینتوباسیون، مانیتورینگ قلبی، تجویز آنتی‌دوت و در صورت نیاز ونتیلاسیون مکانیکی. اساس درمان در موارد شدید همین است.</span></div>
+<div class="c"><span class="e">⛔</span><b>سوکسینیل‌کولین</b><span>استفاده از سوکسینیل‌کولین برای تسهیل اینتوباسیون بیمار ممنوع است.</span></div>
+<div class="c"><span class="e">🧼</span><b>واشینگ پوست</b><span>اگر لباس بیمار به سم، استفراغ یا اسهال آلوده است، لباس‌ها را خارج کنید و پوست را با آب و صابون بشویید. اگر موهای بلند آلوده است، موها را بتراشید.</span></div>
+<div class="c"><span class="e">🧪</span><b>شستشوی معده</b><span>مقدار زیاد سم خورده شده، مراجعه ظرف یک ساعت، هوشیاری مناسب و نبود علائم شدید یا اینتوبه شدن: NGT و گاستریک واشینگ، با توجه به کنتراندیکاسیون‌ها.</span></div>
+<div class="c"><span class="e">⚫</span><b>شارکول</b><span>در نبود کنتراندیکاسیون و ظرف یک تا دو ساعت پس از خوردن سم، یک دوز شارکول بدهید. گفته شده شارکول روی مالاتیون اثر ندارد.</span></div>
+<div class="c"><span class="e">😷</span><b>حفاظت پرسنل</b><span>برای جلوگیری از آلوده شدن، از دستکش و ماسک استفاده کنید.</span></div>
+</div>
+</section>
+
+<section class="s">
+<h2>آنتی‌دوت: آتروپین و پرالیدوکسیم</h2>
+<div class="row">
+<svg viewBox="0 0 440 200"><rect x="60" y="70" width="250" height="60" rx="12" fill="#e3f2fd" stroke="#1e88e5" stroke-width="4"/><rect x="60" y="70" width="140" height="60" rx="12" fill="#a5d8ff"/><g stroke="#16324f" stroke-width="3"><path d="M100 70v14M130 70v22M160 70v14M190 70v22M220 70v14M250 70v22M280 70v14"/></g><rect x="310" y="94" width="40" height="12" fill="#868e96"/><rect x="350" y="99" width="70" height="2" fill="#868e96"/><rect x="40" y="85" width="20" height="30" fill="#868e96"/><rect x="20" y="95" width="20" height="10" fill="#495057"/><text x="190" y="180" font-size="20" text-anchor="middle" fill="#16324f">آتروپین وریدی</text></svg>
+<div class="txt"><ul><li>آتروپین علائم موسکارینی را برطرف می‌کند ولی روی علائم نیکوتینی اثری ندارد</li><li>با رقابت در گیرنده‌های موسکارینی روی ترشحات، میوز، برونکواسپاسم، استفراغ، اسهال، درد شکمی، تعریق و دفع ادرار مؤثر است</li><li>در موارد شدید در ۲۴ ساعت اول ممکن است تا ۱۰۰۰ میلی‌گرم و گاه تا ۱۱٬۰۰۰ میلی‌گرم آتروپین لازم شود</li></ul></div>
+</div>
+<div class="grid">
+<div class="c" style="border-top:6px solid #2f9e44"><b>خفیف</b><span>۰٫۵ تا ۱ میلی‌گرم وریدی، به‌صورت PRN</span></div>
+<div class="c" style="border-top:6px solid #f08c00"><b>متوسط</b><span>۱ تا ۲ میلی‌گرم وریدی و تکرار هر ۱۵ تا ۳۰ دقیقه تا آتروپینیزه شدن بیمار</span></div>
+<div class="c" style="border-top:6px solid #e03131"><b>شدید</b><span>شروع با ۲ میلی‌گرم و دو برابر کردن هر ۵ دقیقه (۲، ۴، ۸، ۱۶، ۳۲، ۶۴ ...) تا آتروپینیزه شدن بیمار</span></div>
+<div class="c"><b>کودکان</b><span>شروع با ۰٫۰۵ mg/kg و افزایش تا دوزی که در بزرگسالان داده می‌شود</span></div>
+<div class="c"><b>هدف درمان</b><span>خشک شدن ترشحات ریوی و برطرف شدن هیپوکسی، بدون توجه به سایز مردمک، تعریق و ضربان قلب. ضربان بالای ۸۰ و بدون رال در ریه‌ها</span></div>
+<div class="c"><b>انفوزیون</b><span>پس از آتروپینیزه شدن، ۰٫۵ تا ۱٫۵ mg/h (حداکثر ۲ mg/h) با پمپ در نرمال سالین</span></div>
+</div>
+<div class="warn">علائم مسمومیت با آتروپین: دمای بالای ۳۹، بی‌قراری شدید، توهم، آریتمی، PVC، بلوک AV، فسیکولاسیون و تاکی‌کاردی بالای ۱۲۰ تا ۱۴۰ در بیمار هیدراته. دوز را قطع و پس از نیم تا یک ساعت با دوز کمتر شروع کنید. تاکی‌کاردی به‌تنهایی کنتراندیکاسیون آتروپین نیست.</div>
+<div class="warn">پرالیدوکسیم (توصیه WHO): برای هر بیمار علامت‌دار که به آتروپین نیاز دارد، هرچه زودتر شروع شود و تا ۲۴ ساعت بدون علائم نیکوتینی یا ۱۲ تا ۲۴ ساعت پس از آخرین دوز آتروپین ادامه یابد.</div>
+</section>
+
+<section class="s">
+<h2>اکسیم و درمان‌های حمایتی</h2>
+<div class="grid">
+<div class="c"><span class="e">💉</span><b>پرالیدوکسیم</b><span>۲ گرم وریدی طی ۱۰ تا ۱۵ دقیقه در ۱۰۰ سی‌سی سالین، سپس هر ۶ ساعت یا انفوزیون ۲۵۰ تا ۵۰۰ میلی‌گرم در ساعت (کودکان: ۲۵ تا ۵۰ میلی‌گرم بر کیلوگرم، انفوزیون ۱۰ تا ۲۰ میلی‌گرم بر کیلوگرم در ساعت). هرچه زودتر، پیش از پیر شدن آنزیم؛ همراه آتروپین و نه جایگزین آن. تزریق سریع می‌تواند برادی‌کاردی و سفتی عضلانی ایجاد کند</span></div>
+<div class="c"><span class="e">🛡️</span><b>بنزودیازپین</b><span>دیازپام ۵ تا ۱۰ میلی‌گرم وریدی (تکرار در صورت نیاز) یا میدازولام برای تشنج، آژیتاسیون و عضلات؛ در تحریک ناشی از آتروپین هم کاربرد دارد</span></div>
+<div class="c"><span class="e">🧪</span><b>سولفات منیزیم</b><span>۱ گرم وریدی آهسته هر ۶ ساعت به مدت ۴۸ ساعت</span></div>
+<div class="c"><span class="e">🧼</span><b>رفع آلودگی</b><span>درآوردن و دفع لباس‌ها، شست‌وشوی پوست و مو با آب و صابون، دستکش و گان برای کادر درمان؛ در مصرف خوراکی پس از ایمن شدن راه هوایی، زغال فعال از راه NGT (شستشوی معده فقط در موارد انتخابی و بسیار زودرس)</span></div><div class="c"><span class="e">⛔</span><b>داروهای ممنوع یا محتاطانه</b><span>سوکسینیل‌کولین و میواکوریوم (فلج طولانی)، مورفین، تئوفیلین، فنوتیازین‌ها و داروهای مهارکننده کولین‌استراز</span></div><div class="c"><span class="e">🩸</span><b>سایر حمایت‌ها</b><span>مایعات وریدی، اصلاح الکترولیت‌ها، کنترل قند و دما، تهویه مکانیکی در نارسایی تنفسی؛ FFP به‌عنوان منبع سودوکولین‌استراز فقط در شرایط خاص</span></div>
+</div>
+</section>
+
+<section class="s">
+<h2>عوارض دیررس</h2>
+<div class="row">
+<svg viewBox="0 0 440 240"><path d="M20 190h400" stroke="#868e96" stroke-width="3"/><g font-size="15" text-anchor="middle" fill="#16324f"><circle cx="70" cy="190" r="14" fill="#e03131"/><text x="70" y="160">بحران کولینرژیک</text><text x="70" y="226">ساعات اول</text><circle cx="220" cy="190" r="14" fill="#f08c00"/><text x="220" y="160">سندرم متوسط</text><text x="220" y="226">۲۴ تا ۹۶ ساعت</text><circle cx="370" cy="190" r="14" fill="#845ef7"/><text x="370" y="160">نوروپاتی تاخیری</text><text x="370" y="226">۲ تا ۳ هفته</text></g></svg>
+<div class="txt"><ul><li>سندرم متوسط: ضعف عضلات پروگزیمال، خم‌کننده گردن و تنفسی؛ نیاز به تهویه مکانیکی</li><li>عود با سموم چربی‌دوست: بحران کولینرژیک بازگشتی</li><li>تشخیص با EMG و NCV</li><li>پایش طولانی مدت پس از بهبود ظاهری</li><li>سندرم متوسط ۲۴ تا ۹۶ ساعت پس از مسمومیت، پس از رفع بحران کولینرژیک و بدون پاسخ به آتروپین رخ می‌دهد؛ ضعف عضلات گردن، پروگزیمال و اعصاب جمجمه‌ای؛ معمولا طی ۵ تا ۱۸ روز بهبود می‌یابد</li><li>نوروپاتی تاخیری (OPIDN): ۲ تا ۳ هفته بعد، نوروپاتی حسی-حرکتی دیستال و ضعف پاها، با بهبود ناقص</li><li>عوارض مزمن: اختلال شناختی و علائم روانپزشکی</li></ul></div>
+</div>
+</section>
+
+<section class="s">
+<h2>پایش و کارباماتها</h2>
+<div class="grid">
+<div class="c"><span class="e">📊</span><b>پایش آزمایشگاهی</b><span>سطح کولین‌استراز گلبول قرمز و سودوکولین‌استراز، CPK، LDH، آمیلاز، قند، الکترولیت‌ها</span></div>
+<div class="c"><span class="e">📈</span><b>پایش قلبی</b><span>ECG مکرر برای QTc، بلوک AV و آریتمی؛ شدت بیماری با درجه کاهش آنزیم همخوان نیست</span></div>
+<div class="c"><span class="e">🌾</span><b>کارباماتها</b><span>آلدیکارب، پیریمیکارب، تیودیکارب، کارباریل؛ مهار برگشت‌پذیر، علائم کوتاه‌تر (معمولا کمتر از ۲۴ ساعت) و عبور کمتر از سد خونی-مغزی. آتروپین اساس درمان است و نیاز به اکسیم معمولا کمتر است مگر آلودگی همزمان یا علائم شدید</span></div>
+</div>
+<div class="warn">در مسمومیت خالص با کارباماتها نیاز به اکسیم معمولا کمتر است.</div>
+</section>
+
+<section class="s"><h2>تشخیص و تشخیص افتراقی</h2><div class="grid"><div class="c"><span class="e">🔍</span><b>تشخیص بالینی</b><span>شرح حال مواجهه، بو، سندرم کولینرژیک و پاسخ سریع به آتروپین؛ درمان را منتظر نتیجه آزمایش نگذارید</span></div><div class="c"><span class="e">🧫</span><b>آزمایش‌ها</b><span>کولین‌استراز RBC (دقیق‌تر از سودوکولین‌استراز)، CBC، الکترولیت‌ها، قند، ABG، CPK، آمیلاز، ECG و رادیوگرافی قفسه سینه</span></div><div class="c"><span class="e">🔀</span><b>تشخیص افتراقی</b><span>کارباماتها، نیکوتین، قارچ‌های موسکارینی، پیلوکارپین، اوپیوئیدها (مردمک نقطه‌ای بدون ترشحات)، کلونیدین</span></div></div><div class="warn">سطح پایین سودوکولین‌استراز با شدت بالینی همبستگی ضعیفی دارد؛ تصمیم‌گیری براساس بالین است.</div></section>
+
+<section class="s"><h2>خلاصه رویکرد درمان</h2><div class="row"><svg viewBox="0 0 400 300"><g font-size="17" text-anchor="middle" fill="#16324f"><rect x="60" y="10" width="280" height="44" rx="12" fill="#e3f2fd" stroke="#1e88e5" stroke-width="3"/><text x="200" y="38">ایمنی کادر و رفع آلودگی</text><rect x="60" y="70" width="280" height="44" rx="12" fill="#fff4e6" stroke="#e8590c" stroke-width="3"/><text x="200" y="98">راه هوایی و اکسیژن</text><rect x="60" y="130" width="280" height="44" rx="12" fill="#e6fcf5" stroke="#2f9e44" stroke-width="3"/><text x="200" y="158">آتروپین تا آتروپینیزاسیون</text><rect x="60" y="190" width="280" height="44" rx="12" fill="#f3f0ff" stroke="#845ef7" stroke-width="3"/><text x="200" y="218">پرالیدوکسیم و بنزودیازپین</text><rect x="60" y="250" width="280" height="44" rx="12" fill="#fff9db" stroke="#f08c00" stroke-width="3"/><text x="200" y="278">بستری و پایش ۴۸ تا ۷۲ ساعت</text></g><g stroke="#868e96" stroke-width="3"><path d="M200 54v16M200 114v16M200 174v16M200 234v16"/></g></svg><div class="txt"><ul><li>بیمار علامت‌دار را در ICU یا بخش با پایش مداوم بستری کنید</li><li>پس از قطع آتروپین، حداقل ۲۴ ساعت برای عود علائم رصد شود</li><li>مسمومیت عمدی: مشاوره روانپزشکی پیش از ترخیص</li><li>مسمومیت شغلی: پیشگیری، لباس و دستکش محافظ، آموزش و گزارش‌دهی</li></ul></div></div></section>
+
+</div>
+<div id="nav"><button id="p">قبلی</button><span id="n"></span><button id="x">بعدی</button></div>
+</div>
+<script>
+const s=[...document.querySelectorAll('.s')],bar=document.querySelector('#bar i'),n=document.getElementById('n'),p=document.getElementById('p'),x=document.getElementById('x');
+let i=0;
+function show(k){i=Math.max(0,Math.min(s.length-1,k));s.forEach((e,j)=>e.classList.toggle('on',j===i));bar.style.width=((i+1)/s.length*100)+'%';n.textContent=(i+1).toLocaleString('fa')+' / '+s.length.toLocaleString('fa');p.disabled=i===0;x.disabled=i===s.length-1}
+p.onclick=()=>show(i-1);x.onclick=()=>show(i+1);
+document.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'||e.key===' ')show(i+1);if(e.key==='ArrowRight')show(i-1)});
+let t0=null;
+document.addEventListener('touchstart',e=>t0=e.touches[0].clientX);
+document.addEventListener('touchend',e=>{if(t0===null)return;const d=e.changedTouches[0].clientX-t0;if(Math.abs(d)>60)show(d<0?i+1:i-1);t0=null});
+show(0)
+</script>
+</body>
+</html>
